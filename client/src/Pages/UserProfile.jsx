@@ -20,7 +20,7 @@ const UserProfile = () => {
 const {currentUser} = useContext(UserContext)
 const token = currentUser?.token;
 
-//redirect to login page for any user who isn't logged in
+
 
 useEffect(()=> {
   if(!token){

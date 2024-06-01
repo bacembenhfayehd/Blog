@@ -33,7 +33,7 @@ useEffect(() => {
 
 
 if (!createdAt || isNaN(new Date(createdAt))) {
-  return null; // ou retourner un message d'erreur
+  return null; 
 }
 
 
